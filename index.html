@@ -97,6 +97,23 @@
 #page2 {
     min-height: 100vh;
 }
+#pauseBtn {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 9999;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: none;
+
+    background: #ff4d6d;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
 
 .reply-section {
   text-align: center;
@@ -125,6 +142,7 @@
   transform: scale(1.05);
   box-shadow: 0 15px 30px rgba(255, 120, 160, 0.6);
 }
+
 
 
     </style>
@@ -161,10 +179,10 @@
             <p>
                 I know things aren’t always perfect, and we’ve had those moments where things felt a bit heavy.
                 But what makes us so special is how we always find our way back to understanding each other🤝.
-                No matter what happens, every argument we have, we will fix it together, okayyy?..🥺. Also, I want to say
+                No matter what happens, every argument we have, we will fix it together, okayyy?..🥺Also, I want to say
                 I’m sorry if I’m often busy, but I want you to know clearly that I always try to find even a short moment
-                just to text you back because you are my priority. No matter how tough things get, your support and our
-                connection are the anchors that keep me steady.💞
+                just to text you back because you are my priority.No matter how tough things get, your support
+                and our connection are the anchors that keep me steady.💞
             </p>
 
             <p>
@@ -207,8 +225,8 @@
         </div>
         <div class="reply-section">
   <p class="reply-text">
-    Write something for me sayanggg💕  
-    I really want to read your words 🥺
+    Farah's Private threads💕  
+    SAYANGGG AWAKKK hihi 
   </p>
 
   <a
@@ -216,8 +234,10 @@
     target="_blank"
     class="reply-btn"
   >
-    Farah Private threads 💌
+    Write your threads here! 💌
   </a>
+</div>
+
 </div>
 
 
@@ -248,7 +268,6 @@
         });
         
 
-        
 document.getElementById("yesBtn").addEventListener("click", () => {
     document.getElementById("page1").style.display = "none";
     document.getElementById("page2").style.display = "block";
@@ -280,3 +299,4 @@ song.addEventListener("ended", () => {
 <audio id="loveSong" src="song.mp3" preload="auto" loop></audio>
 </body>
 </html>
+
